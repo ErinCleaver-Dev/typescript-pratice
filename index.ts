@@ -69,3 +69,11 @@ let point: {x: number; y: number} = {
 }
 
 console.log(point)
+
+// Function
+// is a description of a function 
+const logNumber: (num: number) => void = (num: number) => {
+    console.log(num);
+}
+
+logNumber(10)
