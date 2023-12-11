@@ -77,3 +77,4 @@ const logNumber: (num: number) => void = (num: number) => {
 }
 
 logNumber(10)
+
